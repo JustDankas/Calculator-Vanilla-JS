@@ -1,0 +1,62 @@
+body{
+    background-image: url("https://images.unsplash.com/photo-1523731407965-2430cd12f5e4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.countdown-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.small-c{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+h1{
+    font-size: 56px;
+    margin-top: 8rem;
+}
+
+.big-letters{
+    font-size: 10rem;
+    margin-top: -2rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+.small-letters{
+    margin: -11rem;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.card{
+    margin-top: 15rem;
+    font-size: 32px;
+    background: #000000c7;
+    border-radius: 25px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 90vw;
+}
+h2{
+    color: white;
+    margin-bottom: 1em;
+}
+.date-input{
+    outline: none;
+    border: none;
+    background: #7c7c7c2b;
+    padding: 0.6em 3em;
+    font-size: 18px;
+    color: white;
+    border-radius: 15px;
+}
